@@ -1,13 +1,9 @@
-//scripted
+//script method
 node{
     stage('Build'){
-        echo "build completed"
+        echo "build successful"
     }
-    stage('Test'){
+    stage('test'){
         echo "test completed"
     }
-    stage("Integration"){
-        echo "integration completed"
-    }
-
 }
